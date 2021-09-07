@@ -1,0 +1,16 @@
+.page__footer {
+  max-width: 944px;
+  margin: auto;
+}
+
+@media (max-width: 1024px) {
+  .page__footer {
+    max-width: calc(100% - 96px);
+  }
+}
+
+@media (max-width: 655px) {
+  .page__footer {
+    max-width: calc(100% - 54px);
+  }
+}

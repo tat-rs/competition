@@ -1,0 +1,17 @@
+.button_place_header {
+  width: 300px;
+}
+
+@media (max-width: 440px) {
+  .button_place_header {
+    min-height: 44px;
+    font-size: 10px;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 354px) {
+  .button_place_header {
+    width: 267px;
+  }
+}

@@ -1,0 +1,10 @@
+.button_place_footer {
+  width: 100%;
+}
+
+@media (max-width: 400px) {
+  .button_place_footer {
+    font-size: 10px;
+    min-height: 54px;
+  }
+}

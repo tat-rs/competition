@@ -1,0 +1,21 @@
+.button {
+  font-family: inherit;
+  min-height: 66px;
+  background-color: #FFBB01;
+  box-shadow: 0px 4px 0px #B68500;
+  border: 0;
+  border-radius: 10px;
+  padding: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.button:hover{
+  background-color: #d89e00;
+  box-shadow: 0px 4px 0px #B68500;
+}

@@ -1,0 +1,9 @@
+.socials__icon {
+  width: 20px;
+}
+
+@media (max-width: 425px) {
+  .socials__icon {
+    width: 16px;
+  }
+}

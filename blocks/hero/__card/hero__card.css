@@ -1,0 +1,10 @@
+.hero__card {
+  max-width: 444px;
+  padding-top: 37px;
+}
+
+@media (max-width: 440px) {
+  .hero__card {
+    padding-top: 17px;
+  }
+}

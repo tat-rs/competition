@@ -1,0 +1,23 @@
+.features__title {
+  max-width: 436px;
+  min-height: 22px;
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+@media (max-width: 655px) {
+  .features__title {
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
+
+@media (max-width: 450px) {
+  .features__title {
+    font-size: 19px;
+    line-height: 22px;
+  }
+}

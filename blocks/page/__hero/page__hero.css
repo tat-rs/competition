@@ -1,0 +1,23 @@
+.page__hero {
+  max-width: 944px;
+  margin: auto;
+  padding-bottom: 71px;
+}
+
+@media (max-width: 1024px) {
+  .page__hero {
+    max-width: calc(100% - 96px);
+  }
+}
+
+@media (max-width: 655px) {
+  .page__hero {
+    max-width: calc(100% - 54px);
+  }
+}
+
+@media (max-width: 440px) {
+  .page__hero {
+    padding-bottom: 42px;
+  }
+}

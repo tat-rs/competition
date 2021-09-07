@@ -1,0 +1,24 @@
+.page__header {
+  max-width: 944px;
+  margin: 0 auto 113px;
+  padding-top: 41px;
+}
+
+@media (max-width: 1024px) {
+  .page__header {
+    max-width: calc(100% - 96px);
+  }
+}
+
+@media (max-width: 973px) {
+  .page__header {
+    padding-top: 35px;
+    margin-bottom: 46px;
+  }
+}
+
+@media (max-width: 655px) {
+  .page__header {
+    max-width: calc(100% - 54px);
+  }
+}

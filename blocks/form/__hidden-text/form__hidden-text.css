@@ -1,0 +1,9 @@
+.form__hidden-text::after {
+  content:" просто";
+}
+
+@media (max-width: 350px) {
+  .form__hidden-text::after {
+    content:"";
+  }
+}

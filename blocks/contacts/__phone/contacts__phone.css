@@ -1,0 +1,21 @@
+.contacts__phone {
+  min-width: 124px;
+}
+
+@media (max-width: 884px) {
+  .contacts__phone {
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 620px) {
+  .contacts__phone {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 351px) {
+  .contacts__phone {
+    margin-bottom: 35px;
+  }
+}

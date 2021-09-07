@@ -1,0 +1,19 @@
+.portfolio {
+  max-width: 944px;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  padding: 64px 0;
+}
+
+@media (max-width: 1024px) {
+  .portfolio {
+    max-width: calc(100% - 96px);
+  }
+}
+
+@media (max-width: 650px) {
+  .portfolio {
+    max-width: calc(100% - 54px);
+    padding: 61px 0 89px;
+  }
+}

@@ -1,0 +1,9 @@
+.contacts__socials {
+  margin-bottom: 32px;
+}
+
+@media (max-width: 351px) {
+  .contacts__socials {
+    margin-bottom: 34px;
+  }
+}

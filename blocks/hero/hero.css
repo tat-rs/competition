@@ -1,0 +1,13 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  column-gap: 50px;
+}
+
+@media (max-width: 973px) {
+  .hero {
+    justify-content:  center;
+    text-align: center;
+  }
+}

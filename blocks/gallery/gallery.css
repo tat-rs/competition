@@ -1,0 +1,17 @@
+.gallery {
+  background-color: #141F35;
+  box-sizing: border-box;
+  padding: 96px 0;
+}
+
+@media (max-width: 655px) {
+  .gallery {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .gallery {
+    padding: 35px 0;
+  }
+}

@@ -1,0 +1,60 @@
+.portfolio__card {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+  box-sizing: border-box;
+  padding: 0 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.portfolio__card:nth-child(1) {
+  background-image: url(../../../images/portfolio/card-chamarel.png);
+}
+
+.portfolio__card:nth-child(2) {
+  background-image: url(../../../images/portfolio/card-golf.png);
+}
+
+.portfolio__card:nth-child(3) {
+  background-image: url(../../../images/portfolio/card-trip.png);
+}
+
+.portfolio__card::after {
+  content: "";
+  position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-image: linear-gradient(to top,rgba(33, 62, 96, 0.89) 0%, rgba(196, 196, 196, 0.295) 43%, rgba(255, 255, 255, 0) 70%);
+  z-index: -1;
+}
+
+@media (max-width: 933px) {
+  .portfolio__card:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+
+@media (max-width: 655px) {
+  .portfolio__card:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+}
+
+@media (max-width: 655px) {
+  .portfolio__card {
+    padding: 0 0 25px;
+  }
+}

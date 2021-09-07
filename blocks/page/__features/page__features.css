@@ -1,0 +1,19 @@
+.page__features {
+  margin: 0 auto;
+  max-width: 944px;
+  box-sizing: border-box;
+  padding: 64px 0 92px;
+}
+
+@media (max-width: 1024px) {
+  .page__features {
+    max-width: calc(100% - 96px);
+  }
+}
+
+@media (max-width: 655px) {
+  .page__features {
+    max-width: calc(100% - 54px);
+    padding: 61px 0 59px;
+  }
+}

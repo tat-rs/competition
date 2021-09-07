@@ -1,0 +1,15 @@
+.contacts__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.75px;
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (max-width: 400px) {
+  .contacts__link {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}
